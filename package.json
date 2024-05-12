@@ -1,0 +1,32 @@
+{
+  "name": "yumemi-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:eslint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check --ignore-unknown src",
+    "format": "npm run lint:eslint -- --fix && prettier --write --list-different src"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^8.8.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.7.1",
+    "sass": "^1.72.0",
+    "typescript": "^5"
+  }
+}
