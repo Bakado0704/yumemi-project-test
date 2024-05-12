@@ -12,6 +12,10 @@ export default function Home() {
       <main>
         <p>Hello Yumemi san</p>
         <p>Hello Yumemi san</p>
+        <p>Hello Yumemi san</p>
+        <p>Hello Yumemi san</p>
+        <p>Hello Yumemi san</p>
+        <p>Hello Yumemi san</p>
       </main>
     </>
   );
